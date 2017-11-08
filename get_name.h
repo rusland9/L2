@@ -2,4 +2,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-int get_name();
+char* get_name();
