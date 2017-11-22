@@ -2,4 +2,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-int print_str();
+void print_str();
