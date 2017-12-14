@@ -1,4 +1,4 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char abs_max(char);
+void abs_max();
