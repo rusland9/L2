@@ -18,16 +18,16 @@ int main(){
     }while ( mas[i]!="" || i<N);
     switch(a){
         case 0:
-            printf("%d", abs_max(mas[]));
+            printf("%d", abs_max(mas));
             break;
         case 1:
-            printf("%d", abs_min(mas[]));
+            printf("%d", abs_min(mas));
             break;
         case 2:
-            printf("%d", diff(mas[]));
+            printf("%d", diff(mas));
             break;
         case 3:
-            printf("%d", sum(mas[]));
+            printf("%d", sum(mas));
             break;
         default:
             printf("Данные некорректны");
