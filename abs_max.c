@@ -3,12 +3,12 @@
 #include "abs_max.h"
 
 void abs_max(){
-    int i, n;
-    for (i=0; i<(j-1); i++)
-        if ( abs(mas[i])>abs(mas[i+1]) ){
-            n=mas[i];
-            mas[i]=mas[i+1]
-            mas[i+1]=n;
+    int j, n;
+    for (j=0; j<(i-1); j++)
+        if ( abs(mas[j])>abs(mas[j+1]) ){
+            n=mas[j];
+            mas[j]=mas[j+1]
+            mas[j+1]=n;
         }
-    printf("%d", mas[j]);
+    printf("%d", mas[i]);
 }  
