@@ -5,17 +5,17 @@
 #include "diff.h"
 #include "sum.h"
 
-int j, N=100;
+int i, N=100;
+char mas[N];
 
 int main(){
-    char mas[N];
-    int a, i;
-    j=0;
+    int a;
     scanf("%d", &a);
-    for (i=0; i<N; i++){
+    i=0;
+    do{
         scanf("%d", &mas[i]);
-        j++;
-    }
+        i++;       
+    }while ( mas[i]!="" || i<N);
     switch(a){
         case 0:
             abs_max(mas[]);
