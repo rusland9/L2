@@ -5,5 +5,6 @@
 #include "diff.h"
 
 int diff(){
-
+  diff=abs_max(mas[])-abs_min(mas[]);
+  return diff;
 }
