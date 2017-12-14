@@ -5,12 +5,10 @@
 
 int abs_min(){
     int j, n;
+    min1=mas[0]
     for (j=0; j<(i-1); j++)
         if ( abs(mas[j])<abs(mas[j+1]) ){
-            n=mas[j];
-            mas[j]=mas[j+1]
-            mas[j+1]=n;
+            min1=mas[j+1];
         }
-    min=mas[i]
-    return min;
+    return min1;
 }  
