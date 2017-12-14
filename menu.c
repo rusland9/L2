@@ -25,7 +25,7 @@ int main(){
             break;
         case 2:
             printf("%d", diff(mas[]));
-            break
+            break;
         case 3:
             printf("%d", sum(mas[]));
             break;
