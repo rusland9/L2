@@ -10,5 +10,6 @@ int abs_max(){
             mas[j]=mas[j+1]
             mas[j+1]=n;
         }
-    return mas[i];
+    max=mas[i]
+    return max;
 }  
