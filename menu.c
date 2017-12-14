@@ -5,7 +5,7 @@
 #include "diff.h"
 #include "sum.h"
 
-int i, N=100, min, maxi, max, diff, sum;
+int i, N=100, min1, maxi, max1, diff1, sum1;
 char mas[N];
 
 int main(){
