@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include "get_name.h"
+#include "abs_max.h"
 
-char* get_name(){
-    char* name = (char*)malloc(80*sizeof(char));
-    int i = 0;
-    char ch;
-    while ((ch = getchar()) != '\n')
-    {
-      name[i] = ch;
-      i++;
-    }
-    name[i] = '\0';
-    return name;
+void abs_max(){
+    int i, n;
+    for (i=0; i<(j-1); i++)
+        if ( abs(mas[i])>abs(mas[i+1]) ){
+            n=mas[i];
+            mas[i]=mas[i+1]
+            mas[i+1]=n;
+        }
+    printf("%d", mas[j]);
 }  
