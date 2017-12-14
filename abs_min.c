@@ -11,5 +11,6 @@ int abs_min(){
             mas[j]=mas[j+1]
             mas[j+1]=n;
         }
-    return mas[i];
+    min=mas[i]
+    return min;
 }  
