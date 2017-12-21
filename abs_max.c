@@ -7,7 +7,7 @@ int abs_max(int mas[], int i, int maxi){
     max1=mas[0];
     maxi=0;
     for (j=1; j<i; j++)
-        if ( abs(max1)>abs(mas[j]) ){
+        if ( abs(max1)<abs(mas[j]) ){
             max1=mas[j];
             maxi=j;
         }
