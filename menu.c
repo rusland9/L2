@@ -13,6 +13,7 @@ int main(){
     int a;
     scanf("%d", &a);
     i=0;
+    ch='0';
     while ( ch!='\n'){
         scanf("%d%c", &mas[i], &ch);
         i++;       
