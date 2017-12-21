@@ -3,4 +3,4 @@
 #include "abs_max.h"
 #include "abs_min.h"
 
-int diff();
+int diff(int mas[], int i);

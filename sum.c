@@ -3,10 +3,10 @@
 #include "abs_max.h"
 #include "abs_min.h"
 
-int sum(){
-int j;
-  sum=0;
+int sum(int mas[], int i, int maxi){
+int j, sum1;
+  sum1=0;
   for (j=maxi;j<i;j++)
-    sum=sum+mas[j];
-  return sum;
+    sum1=sum1+mas[j];
+  return sum1;
 }

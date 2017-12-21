@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include "abs_min.h"
 
-int abs_min(){
-    int j, n;
+int abs_min(mas[], i){
+    int j, min1;
     min1=mas[0]
-    for (j=0; j<(i-1); j++)
-        if ( abs(mas[j])<abs(mas[j+1]) ){
-            min1=mas[j+1];
+    for (j=1; j<i; j++)
+        if ( abs(min1)<abs(mas[j]) ){
+            min1=mas[j];
         }
     return min1;
 }  

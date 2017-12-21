@@ -4,7 +4,8 @@
 #include "abs_min.h"
 #include "diff.h"
 
-int diff(){
-  diff=abs_max(mas[])-abs_min(mas[]);
-  return diff;
+int diff(mas[], i){
+  int diff1;
+  diff1=abs_max(mas[], i)-abs_min(mas[], i);
+  return diff1;
 }

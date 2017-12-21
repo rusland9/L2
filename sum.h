@@ -4,4 +4,4 @@
 #include "abs_max.h"
 #include "abs_min.h"
 
-int sum();
+int sum(int mas[], int i, int maxi);

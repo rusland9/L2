@@ -6,15 +6,15 @@
 #include "sum.h"
 
 #define N 100
-int i, mas[N];
-//char mas[N];
+int i, maxi, mas[N];
+char ch;
 
 int main(){
     int a;
     scanf("%d", &a);
     i=0;
-    while ( mas[i]!="" || i<N){
-        scanf("%d", &mas[i]);
+    while ( mas[i]!='\n'){
+        scanf("%d%c", &mas[i], &ch);
         i++;       
     }
     switch(a){
