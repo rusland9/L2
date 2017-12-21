@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "abs_max.h"
 
-int abs_max(mas[], i){
+int abs_max(int mas[], int i, int maxi){
     int j, max1;
     max1=mas[0];
     for (j=1; j<i; j++)

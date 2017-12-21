@@ -19,16 +19,16 @@ int main(){
     }
     switch(a){
         case 0:
-            printf("%d", abs_max(mas));
+            printf("%d", abs_max(mas, i, maxi));
             break;
         case 1:
-            printf("%d", abs_min(mas));
+            printf("%d", abs_min(mas, i));
             break;
         case 2:
-            printf("%d", diff(mas));
+            printf("%d", diff(mas, i));
             break;
         case 3:
-            printf("%d", sum(mas));
+            printf("%d", sum(mas, i, maxi));
             break;
         default:
             printf("Данные некорректны");
