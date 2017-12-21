@@ -4,7 +4,7 @@ menu.o:	menu.c
 	gcc -c menu.c -o menu.o
 abs_max.o: abs_max.c abs_max.h
 	gcc -c abs_max.c
-abs_min.o: abs_min.c abc_min.h
+abs_min.o: abs_min.c abs_min.h
 	gcc -c abs_min.c
 diff.o: diff.c diff.h
 	gcc -c diff.c
