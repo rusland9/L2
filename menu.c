@@ -25,7 +25,7 @@ int main(){
             printf("%d", abs_min(mas, i));
             break;
         case 2:
-            printf("%d", diff(mas, i));
+            printf("%d", diff(mas, i, maxi));
             break;
         case 3:
             printf("%d", sum(mas, i, maxi));
