@@ -5,17 +5,18 @@
 #include "diff.h"
 #include "sum.h"
 
-int i, N=100, min1, maxi, max1, diff1, sum1, mas[N];
+#define N 100
+int i, mas[N];
 //char mas[N];
 
 int main(){
     int a;
     scanf("%d", &a);
     i=0;
-    do{
+    while ( mas[i]!="" || i<N){
         scanf("%d", &mas[i]);
         i++;       
-    }while ( mas[i]!="" || i<N);
+    }
     switch(a){
         case 0:
             printf("%d", abs_max(mas));
