@@ -13,7 +13,7 @@ int main(){
     int a;
     scanf("%d", &a);
     i=0;
-    while ( mas[i]!='\n'){
+    while ( ch!='\n'){
         scanf("%d%c", &mas[i], &ch);
         i++;       
     }
