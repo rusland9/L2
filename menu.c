@@ -6,7 +6,7 @@
 #include "sum.h"
 
 #define N 100
-int i, maxi, mas[N];
+int i, mas[N];
 char ch;
 
 int main(){
@@ -20,16 +20,16 @@ int main(){
     }
     switch(a){
         case 0:
-            printf("%d\n", abs_max(mas, i, maxi));
+            printf("%d\n", abs_max(mas, i));
             break;
         case 1:
             printf("%d\n", abs_min(mas, i));
             break;
         case 2:
-            printf("%d\n", diff(mas, i, maxi));
+            printf("%d\n", diff(mas, i));
             break;
         case 3:
-            printf("%d\n", sum(mas, i, maxi));
+            printf("%d\n", sum(mas, i));
             break;
         default:
             printf("Данные некорректны\n");
